@@ -9,16 +9,6 @@ AI-styled developer portfolio built with React, TypeScript and Tailwind CSS.
 
 ## Projects
 
-| Project | Date | Live demo |
-|---|---|---|
-| **NextGen Devs** — career-training platform | Oct 2026 | — |
-| **ArcForge (CloudArc v2)** — backend starter kits | Sep 2026 | — |
-| **ClipX** — browser video editor | Sep 2026 | [Open demo](https://darshana-portfolio.netlify.app/?demo=clipx) |
-| **Gesture Controller** — voice & motion app | Aug 2026 | — |
-| **Oriana Order Tracking** — order dashboard | — | — |
-| **E-commerce Website** | Jan 2025 | — |
-| **Weather Website** | Dec 2024 | — |
-
 ![Projects section](docs/screenshots/projects.png)
 
 ## Features
