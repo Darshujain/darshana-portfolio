@@ -6,10 +6,6 @@ AI-styled developer portfolio built with React, TypeScript and Tailwind CSS.
 
 ![Portfolio hero](docs/screenshots/hero.png)
 
-## Projects
-
-![Projects section](docs/screenshots/projects.png)
-
 ## Features
 
 - AI-inspired 2026 design: aurora background, glass cards with cursor spotlight, gradient accents
