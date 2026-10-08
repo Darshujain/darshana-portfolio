@@ -4,3 +4,13 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/demos/nextgen/*"
+  to = "/demos/nextgen/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/demos/gesture-controller/*"
+  to = "/demos/gesture-controller/index.html"
+  status = 200
