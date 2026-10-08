@@ -6,6 +6,14 @@ AI-styled developer portfolio built with React, TypeScript and Tailwind CSS.
 
 ![Portfolio hero](docs/screenshots/hero.png)
 
+## Live demos
+
+| Project | Live demo | Code |
+|---------|-----------|------|
+| ClipX | [Open demo](https://darshana-portfolo.netlify.app/?demo=clipx) | — |
+| NextGen Devs | [Open demo](https://darshana-portfolo.netlify.app/demos/nextgen/) | [nextgendevs-website](https://github.com/Darshujain/nextgendevs-website) |
+| Gesture Controller | [Open demo](https://darshana-portfolo.netlify.app/demos/gesture-controller/) | [gesture-controller](https://github.com/Darshujain/gesture-controller) |
+
 ## Features
 
 - AI-inspired 2026 design: aurora background, glass cards with cursor spotlight, gradient accents
@@ -43,6 +51,7 @@ src/
 ├── data/portfolio.ts   # all content: profile, skills, experience, projects
 └── hooks/              # theme, scroll reveal, card spotlight
 public/resume.pdf       # resume served at /resume.pdf
+public/demos/           # built project demos served at /demos/<name>/
 ```
 
 To add or edit a project, update `src/data/portfolio.ts`.
