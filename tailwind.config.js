@@ -93,13 +93,6 @@ export default {
           '0%, 100%': { backgroundPosition: '0% 50%' },
           '50%': { backgroundPosition: '100% 50%' },
         },
-        shake: {
-          '0%, 100%': { transform: 'translateX(0) rotate(0)' },
-          '20%': { transform: 'translateX(-10px) rotate(-3deg)' },
-          '40%': { transform: 'translateX(10px) rotate(3deg)' },
-          '60%': { transform: 'translateX(-7px) rotate(-2deg)' },
-          '80%': { transform: 'translateX(7px) rotate(2deg)' },
-        },
         blink: {
           '0%, 100%': { opacity: '1' },
           '50%': { opacity: '0' },

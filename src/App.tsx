@@ -9,30 +9,13 @@ import { Footer } from '@/components/Footer/Footer';
 import { useTheme } from '@/hooks/useTheme';
 import { useSpotlight } from '@/hooks/useSpotlight';
 import { ClipXDemo } from '@/components/ClipXDemo/ClipXDemo';
-import { NextGenDemo } from '@/components/Demos/NextGenDemo';
-import { ArcForgeDemo } from '@/components/Demos/ArcForgeDemo';
-import { GestureDemo } from '@/components/Demos/GestureDemo';
-import { OrianaDemo } from '@/components/Demos/OrianaDemo';
-import { EcommerceDemo } from '@/components/Demos/EcommerceDemo';
-import { WeatherDemo } from '@/components/Demos/WeatherDemo';
-
-const demos: Record<string, () => JSX.Element> = {
-  clipx: ClipXDemo,
-  nextgen: NextGenDemo,
-  arcforge: ArcForgeDemo,
-  gesture: GestureDemo,
-  oriana: OrianaDemo,
-  ecommerce: EcommerceDemo,
-  weather: WeatherDemo,
-};
 
 function App() {
   const { theme, toggleTheme } = useTheme();
   useSpotlight();
 
-  const Demo = demos[new URLSearchParams(window.location.search).get('demo') ?? ''];
-  if (Demo) {
-    return <Demo />;
+  if (new URLSearchParams(window.location.search).get('demo') === 'clipx') {
+    return <ClipXDemo />;
   }
 
   return (
