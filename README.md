@@ -3,7 +3,6 @@
 AI-styled developer portfolio built with React, TypeScript and Tailwind CSS.
 
 **Live site:** https://darshana-portfolio.netlify.app
-**Resume:** https://darshana-portfolio.netlify.app/resume.pdf
 
 ![Portfolio hero](docs/screenshots/hero.png)
 
